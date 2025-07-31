@@ -1,5 +1,6 @@
 # 📦 RoomDBHelper – Android Room Persistence Library Helper
 
+[![](https://jitpack.io/v/AkashYadav8080/RoomDBHelper.svg)](https://jitpack.io/#AkashYadav8080/RoomDBHelper)
 ![Platform](https://img.shields.io/badge/platform-Android-green)
 ![Room](https://img.shields.io/badge/room-2.6.1-blue)
 ![Kotlin](https://img.shields.io/badge/kotlin-✅-orange)
@@ -25,10 +26,13 @@ If using in same project:
 
 ```kotlin
 // settings.gradle.kts
-include(":roomdbhelper")
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
 
 // app/build.gradle.kts (Module)
-implementation(project(":roomdbhelper"))
+implementation 'com.github.AkashYadav8080:RoomDBHelper:1.0.0'
 
 ```
 ### Step 2: Add Room to Your App Module
