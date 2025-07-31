@@ -27,7 +27,7 @@ If using in same project:
 // settings.gradle.kts
 include(":roomdbhelper")
 
-// app/build.gradle.kts
+// app/build.gradle.kts (Module)
 implementation(project(":roomdbhelper"))
 
 ```
@@ -36,6 +36,14 @@ implementation(project(":roomdbhelper"))
 > Because entities and DAOs are in app module, you must include Room annotations.
 
 ```kotlin
+// app/build.gradle.kts (Module)
+
+plugins {
+    alias(libs.plugins.android.application) 
+    alias(libs.plugins.kotlin.android)      
+    id("kotlin-kapt")                       // Required for Room's annotation processor
+}
+
 dependencies {
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
