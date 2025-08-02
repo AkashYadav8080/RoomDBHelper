@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/AkashYadav8080/RoomDBHelper.svg)](https://jitpack.io/#AkashYadav8080/RoomDBHelper)
 ![Platform](https://img.shields.io/badge/platform-Android-green)
 ![Room Version](https://img.shields.io/badge/room-2.6.1-blue)
-![Kotlin](https://img.shields.io/badge/kotlin-✅-orange)
+![Kotlin](https://img.shields.io/badge/kotlin-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Min API](https://img.shields.io/badge/minAPI-21-brightgreen)
 
