@@ -1,4 +1,4 @@
-# 📦 RoomDBHelper – Android Room Persistence Library Helper
+# 📦 RoomDBHelper – Android Room Library Helper
 
 [![](https://jitpack.io/v/AkashYadav8080/RoomDBHelper.svg)](https://jitpack.io/#AkashYadav8080/RoomDBHelper)
 ![Platform](https://img.shields.io/badge/platform-Android-green)
