@@ -38,7 +38,6 @@ Setting up Room Database involves repetitive boilerplate code for every project.
 - Delete (single & batch)
 - Custom queries via DAO extension
 - Transaction support
-- Migration handling
 
 ---
 
